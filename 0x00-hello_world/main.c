@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE  "$(echo $CFILE | cut -d'.' -f 1 ).c"
+gcc -S -o $CFILE
