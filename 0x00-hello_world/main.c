@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -o cisfun
+puts ("Programming is like building a multilingual puzzle");
