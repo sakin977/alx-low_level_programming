@@ -2,8 +2,8 @@
 #include<holberton.h>
 main()
 {
-  char ch="Holberton\n";
-  putchar(ch);
+  char c="Holberton\n";
+  putchar(c);
   
   return=0;
   }
