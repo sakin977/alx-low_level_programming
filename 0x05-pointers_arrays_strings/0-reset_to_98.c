@@ -2,8 +2,8 @@
 #include<holberton.h>
 void reset_to_98 (int*n) 
 {
-int n = 98;
-int *p = &n;
+int n = 402;
+int *ptr = &n;
 
-p = 402;
+*ptr = 98;
 }
