@@ -1,5 +1,9 @@
 #include<stdio.h>
+#include<holberton.h>
 main()
 {
-  printf("Holberton\n")
+  char ch="Holberton\n";
+  putchar(ch);
+  
+  return=0
   }
