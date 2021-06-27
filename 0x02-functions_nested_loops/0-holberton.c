@@ -5,5 +5,5 @@ main()
   char ch="Holberton\n";
   putchar(ch);
   
-  return=0
+  return=0;
   }
