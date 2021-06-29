@@ -1,11 +1,10 @@
 /**
- * op_add - resets number
- * @arg1: First operand
- * @arg2: Second operand
+ * reset_to_98 - updates pointer's value to 98
  *
- * Return: update
+ * @n: integer pointer to update
+ *
+ * Return: always void
  */
-
 void reset_to_98(int *n)
 {
 *n = 98;
