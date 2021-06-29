@@ -1,4 +1,4 @@
-#include<holberton.h>
+#include "holberton.h"
 /**
  * _puts - puts string to stdout
  *
@@ -8,7 +8,9 @@
  */
 void _puts(char *str)
 {
-	while (*str)
-		_putchar(*str++);
-	_putchar('\n');
+while (*str)
+{
+_puts(str++);
+_putchar('\n');
+}
 }
