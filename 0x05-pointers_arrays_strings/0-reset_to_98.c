@@ -1,5 +1,3 @@
-#include<stdio.h>
-#include "holberton.h"
 /**
  * op_add - resets number
  * @arg1: First operand
