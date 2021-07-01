@@ -6,14 +6,14 @@
 *Return:a pointer to the resulting string dest
 *
 */
-char *_strncat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
   
 dest = "Hello ";
   
 src = "World!";
   
-_strncat (dest, src);
+_strcat (dest, src);
   
 printf ("Concatenated String: %s\n", dest);
   
