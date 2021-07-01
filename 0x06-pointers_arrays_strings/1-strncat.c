@@ -1,15 +1,21 @@
 #include <stdio.h>
 #include <string.h>
-char *_strcat(char *dest, char *src)
+/**
+*_strncat - prints string
+*@str: pointer char
+*Return:a pointer to the resulting string dest
+*
+*/
+char *_strncat(char *dest, char *src)
 {
   
-char *dest[] = "Hello ";
+dest = "Hello ";
   
-char *src[] = "World!";
+src = "World!";
   
-_strcat (dest, src);
+_strncat (dest, src);
   
-printf ("Concatenated String: %s\n", destination);
+printf ("Concatenated String: %s\n", dest);
   
 return 0;
 
