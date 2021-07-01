@@ -7,16 +7,11 @@
 *
 */
 char *_strncat(char *dest, char *src)
-{
-  
-dest = "Hello ";
-  
-src = "World!";
-  
+{ 
+dest = "Hello ";  
+src = "World!";  
 _strncat (dest, src);
-  
+while (*(str + i) !'\0')
 printf ("Concatenated String: %s\n", dest);
-  
 return 0;
-
 }
