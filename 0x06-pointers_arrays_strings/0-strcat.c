@@ -1,10 +1,22 @@
 #include <stdio.h>
-#include "holberton.h"
-int main()
+#include <string.h>
+/**
+*_strcat - prints string
+*@str: pointer char
+*Return:a pointer to the resulting string dest
+*
+*/
+char *_strncat(char *dest, char *src)
 {
-char destination[] = "Hello ";
-char source[] = "World!";
-strcat(destination,source);
-printf("Concatenated String: %s\n", destination);
+  
+dest = "Hello ";
+  
+src = "World!";
+  
+_strncat (dest, src);
+  
+printf ("Concatenated String: %s\n", dest);
+  
 return 0;
+
 }
