@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-Int main (void)
+int main (void)
 {Char *s = "hello, world";
  char *f = "oleh";
  unsigned int n;
